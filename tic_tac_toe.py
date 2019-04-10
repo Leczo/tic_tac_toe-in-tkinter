@@ -42,7 +42,7 @@ def callback(index, position):
             for i in buttons:
                 i.config(state='disabled')
         # Draw
-        if moves == 9:
+        if moves == 12:
             for i in buttons:
                 i.config(state='disabled')
                 label['text'] = 'Draw'
