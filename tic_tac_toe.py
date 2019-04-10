@@ -42,7 +42,7 @@ def callback(index, position):
             for i in buttons:
                 i.config(state='disabled')
         # Draw
-        if moves == 12:
+        if moves == 9 and not is_winner(theBoard):
             for i in buttons:
                 i.config(state='disabled')
                 label['text'] = 'Draw'
